@@ -1,0 +1,56 @@
+.h2 {
+  cursor: pointer;
+}
+.result {
+  height: 60px;
+  background-color: rgb(22, 47, 155);
+  width: 100%;
+}
+
+.resultP {
+  font-size: 40px;
+  margin: 5px;
+}
+
+.calculatorBody {
+  width: 50%;
+  margin: auto;
+}
+
+.button {
+  display: block;
+  background-color: rgb(34, 37, 207);
+  outline: none;
+}
+
+button {
+  outline: none;
+  background-color: rgb(142, 53, 184);
+  border: 1px solid rgb(60, 31, 73);
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+}
+@media only screen and (max-width: 1024px) {
+  .calculatorBody {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 767) {
+  .calculatorBody {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .calculatorBody {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  .calculatorBody {
+    width: 100%;
+  }
+}
